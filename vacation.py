@@ -31,7 +31,7 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-TOKEN = "8056257760:AAEnh50NYSZ84sbIVpknhKMUsFY8zA8Ao14"
+TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
 TEAM_NAMES = {}  # chat_id -> active team
 TEAMS = set()  # known teams
 VACATION_PATH = "vacations_{}.txt"
